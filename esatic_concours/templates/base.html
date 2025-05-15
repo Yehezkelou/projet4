@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+{% load static tailwind_tags %}
+<head>
+    <meta charset="UTF-8">
+    <title>{%block titre %} ESATIC CONCOURS {%endblock%}</title>
+
+    {% tailwind_css %}
+
+</head>
+<body>
+
+    {% block content %}
+
+    {% endblock %}
+</body>
+</html>
